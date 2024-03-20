@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-
+# EVERY time its send the commit to the branch main execute this workflow push.
+# the yml
 jobs:
   hello_world:
     runs-on: ubuntu-18.04
